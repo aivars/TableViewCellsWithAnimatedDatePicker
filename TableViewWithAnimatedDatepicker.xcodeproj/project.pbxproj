@@ -1,0 +1,311 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		963769041F2B9CAA005579BF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 963769031F2B9CAA005579BF /* AppDelegate.swift */; };
+		963769091F2B9CAA005579BF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 963769071F2B9CAA005579BF /* Main.storyboard */; };
+		9637690B1F2B9CAA005579BF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9637690A1F2B9CAA005579BF /* Assets.xcassets */; };
+		9637690E1F2B9CAA005579BF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9637690C1F2B9CAA005579BF /* LaunchScreen.storyboard */; };
+		963769161F2B9E11005579BF /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 963769151F2B9E11005579BF /* TableViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		963769001F2B9CAA005579BF /* TableViewWithAnimatedDatepicker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TableViewWithAnimatedDatepicker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		963769031F2B9CAA005579BF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		963769081F2B9CAA005579BF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9637690A1F2B9CAA005579BF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9637690D1F2B9CAA005579BF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9637690F1F2B9CAA005579BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		963769151F2B9E11005579BF /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TableViewController.swift; path = ../TableViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		963768FD1F2B9CAA005579BF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		963768F71F2B9CAA005579BF = {
+			isa = PBXGroup;
+			children = (
+				963769021F2B9CAA005579BF /* TableViewWithAnimatedDatepicker */,
+				963769011F2B9CAA005579BF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		963769011F2B9CAA005579BF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				963769001F2B9CAA005579BF /* TableViewWithAnimatedDatepicker.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		963769021F2B9CAA005579BF /* TableViewWithAnimatedDatepicker */ = {
+			isa = PBXGroup;
+			children = (
+				963769151F2B9E11005579BF /* TableViewController.swift */,
+				963769031F2B9CAA005579BF /* AppDelegate.swift */,
+				963769071F2B9CAA005579BF /* Main.storyboard */,
+				9637690A1F2B9CAA005579BF /* Assets.xcassets */,
+				9637690C1F2B9CAA005579BF /* LaunchScreen.storyboard */,
+				9637690F1F2B9CAA005579BF /* Info.plist */,
+			);
+			path = TableViewWithAnimatedDatepicker;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		963768FF1F2B9CAA005579BF /* TableViewWithAnimatedDatepicker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 963769121F2B9CAA005579BF /* Build configuration list for PBXNativeTarget "TableViewWithAnimatedDatepicker" */;
+			buildPhases = (
+				963768FC1F2B9CAA005579BF /* Sources */,
+				963768FD1F2B9CAA005579BF /* Frameworks */,
+				963768FE1F2B9CAA005579BF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TableViewWithAnimatedDatepicker;
+			productName = TableViewWithAnimatedDatepicker;
+			productReference = 963769001F2B9CAA005579BF /* TableViewWithAnimatedDatepicker.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		963768F81F2B9CAA005579BF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = Wixted;
+				TargetAttributes = {
+					963768FF1F2B9CAA005579BF = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 4P64QSU6Y7;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 963768FB1F2B9CAA005579BF /* Build configuration list for PBXProject "TableViewWithAnimatedDatepicker" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 963768F71F2B9CAA005579BF;
+			productRefGroup = 963769011F2B9CAA005579BF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				963768FF1F2B9CAA005579BF /* TableViewWithAnimatedDatepicker */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		963768FE1F2B9CAA005579BF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9637690E1F2B9CAA005579BF /* LaunchScreen.storyboard in Resources */,
+				9637690B1F2B9CAA005579BF /* Assets.xcassets in Resources */,
+				963769091F2B9CAA005579BF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		963768FC1F2B9CAA005579BF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				963769041F2B9CAA005579BF /* AppDelegate.swift in Sources */,
+				963769161F2B9E11005579BF /* TableViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		963769071F2B9CAA005579BF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				963769081F2B9CAA005579BF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9637690C1F2B9CAA005579BF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9637690D1F2B9CAA005579BF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		963769101F2B9CAA005579BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		963769111F2B9CAA005579BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		963769131F2B9CAA005579BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 4P64QSU6Y7;
+				INFOPLIST_FILE = TableViewWithAnimatedDatepicker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wixted.TableViewWithAnimatedDatepicker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		963769141F2B9CAA005579BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 4P64QSU6Y7;
+				INFOPLIST_FILE = TableViewWithAnimatedDatepicker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wixted.TableViewWithAnimatedDatepicker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		963768FB1F2B9CAA005579BF /* Build configuration list for PBXProject "TableViewWithAnimatedDatepicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				963769101F2B9CAA005579BF /* Debug */,
+				963769111F2B9CAA005579BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		963769121F2B9CAA005579BF /* Build configuration list for PBXNativeTarget "TableViewWithAnimatedDatepicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				963769131F2B9CAA005579BF /* Debug */,
+				963769141F2B9CAA005579BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 963768F81F2B9CAA005579BF /* Project object */;
+}
